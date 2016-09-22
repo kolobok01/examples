@@ -1,0 +1,9 @@
+{"namespace": "io.confluent.examples.streams.avro",
+ "type": "record",
+ "name": "ComponentViews",
+ "fields": [
+     {"name": "experiment_id", "type": "string"},
+     {"name": "variant", "type": "string"},
+     {"name": "converted", "type": "boolean"}
+ ]
+}
